@@ -12,7 +12,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: 0009e4eda151da54519726e9c4a55b3430ab915b
+  github-token: $GITHUB_TOKEN
   keep-history: true
   local-dir: www
   on:
