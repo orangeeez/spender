@@ -17,3 +17,6 @@ deploy:
   local-dir: www
   on:
     branch: development
+
+notifications:
+    slack: spendertemptitle:aYd0cIi9fqPcPC57LlR4HxuU
